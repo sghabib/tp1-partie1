@@ -16,6 +16,15 @@ public class CV {
 
 	public static void main(String[] args) {
 		System.out.println("Bienvenue chez Barrette!");
+		String[] competencesMathieu = {"Réparation de toasters", "Dompteur de souris"};
+		CV mathieu = new CV("Allard", "Mathieu", "Informatique de gestion", "Passer mes examens", 2, competencesMathieu );
+		String[] competencesWerner = {"Mannequin médical", "Enseignant et philosophie"};
+		CV werner = new CV("Burat", "Werner", "Informatique de gestion", "Gagner ma vie", 8, competencesWerner );
+		
+		mathieu.affiche();
+		
+		werner.affiche();
+		
 	}
 
 	public void affiche() {
