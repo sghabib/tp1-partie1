@@ -31,6 +31,6 @@ public class CV {
 			}
 		}
 
-		System.out.println("\r\nAttentes :\t" + attentes);
+		System.out.println("\r\nAttente :\t" + attentes);
 	}
 }
